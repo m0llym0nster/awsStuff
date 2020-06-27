@@ -2,12 +2,12 @@
 #molly@m0llym0nster.ninja
 
 ####Set variables for deployment: Will default if parameters not set####
-subnet=subnet-04b5b2f95645dfb5a
-secgrp=sg-0b585d6ba9289cdbe
+subnet=subnet-#############
+secgrp=sg-##############
 numhosts=2
 ami=ami-00a208c7cdba991ea
-instrolearn=arn:aws:iam::310090471142:instance-profile/ec2-kms-instance-profile-pumped-reptile
-keyname=e588-keypair
+instrolearn=arn:aws:iam::###########:instance-profile/##############
+keyname=#########
 del=R
 theday=$(date +"%Y%m%d-%H%m")
 #awskeyprofile=lab22 add: --profile $awskeyprofile to the ec2 commands below
